@@ -23,4 +23,5 @@ jobs:
           go test -v ./...
       - uses: sonarqube-bundled-sast-scan-code.
         name: Scan
-        description: Scan Code
+        kind: scan
+        
